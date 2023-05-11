@@ -8,11 +8,13 @@ section.section_gauche{
     background-color: #383e42;
     padding: 40px;
     color: #fff;
+    font-family: Bahnschrift SemiBold;
 }
 
 section.section_droite{
-    width: 70%;
+    width: 60%;
     padding-left: 40px;
+    font-family: Bahnschrift SemiBold;
 }
 
 /* section.section_droite div{
@@ -50,19 +52,33 @@ article.langues p{
 
 div.mail_box{
     display: flex;
+    padding: 5;
 }
 
 div.phone_box{
     display: flex;
+    padding: 5;
 }
 
 div.adress_box{
     display: flex;
+    padding: 5;
 }
 
 div.permis_box{
     display: flex;
+    padding: 10;
 }
 div.infos{
     padding-left: 10px;
+}
+
+h3.titres{
+    color: #2C9EF2;
+    font-size: 20px;
+    font-family: Bahnschrift SemiBold;
+}
+
+p{
+    font-family: Bahnschrift;
 }
