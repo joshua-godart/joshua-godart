@@ -1,6 +1,7 @@
 section{
     display: inline-block;
     width: 20%;
+    height: 200vh;
 }
 
 section.section_gauche{
@@ -75,10 +76,37 @@ div.infos{
 
 h3.titres{
     color: #2C9EF2;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Bahnschrift SemiBold;
 }
 
 p{
     font-family: Bahnschrift;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 15px;
+}
+article.langues div{
+    padding-left: 20px;
+}
+
+article.langues div.infos{
+    font-family: Bahnschrift SemiLight;
+}
+
+article.competences div{
+    padding-left: 20px;
+}
+
+article.atouts div{
+    padding-left: 20px;
+}
+
+article.centre_interet div{
+    padding-left: 20px;
 }
